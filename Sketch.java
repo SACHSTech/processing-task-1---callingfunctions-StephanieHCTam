@@ -11,10 +11,6 @@ Date: 22/02/2022
 import processing.core.PApplet;
 
 public class Sketch extends PApplet {
-	
-  /**
-   * Called once at the beginning of execution, put your size all in this method
-   */
   
   public void settings() {
 	// size call 
@@ -26,9 +22,6 @@ public class Sketch extends PApplet {
     background(173, 230, 255);
   }
 
-  /**
-   * Called repeatedly, anything drawn to the screen goes here
-   */
   public void draw() {
 
     // Grass Foreground
