@@ -1,16 +1,11 @@
-/*
--------------------------------------------------------------------------
-Processing Task 1 - Calling Functions
-
-Author: Stephanie Tam
-
-Date: 22/02/2022
--------------------------------------------------------------------------
-*/
-
 import processing.core.PApplet;
 
 public class Sketch extends PApplet {
+
+  /**
+  * Program Sketch.java visually draws a bird on grass. 
+  * @author: Stephanie Tam
+  */
   
   public void settings() {
 	// size call 
@@ -62,6 +57,5 @@ public class Sketch extends PApplet {
 
     fill(15, 0, 0);
     rect(220, 315, 5, 35);
-
   }
 }
