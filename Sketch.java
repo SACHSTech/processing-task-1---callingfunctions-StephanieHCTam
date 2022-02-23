@@ -12,20 +12,16 @@ import processing.core.PApplet;
 
 public class Sketch extends PApplet {
 	
-	
   /**
    * Called once at the beginning of execution, put your size all in this method
    */
+  
   public void settings() {
-	// put your size call here
+	// size call 
     size(400, 400);
   }
-
-  /** 
-   * Called once at the beginning of execution.  Add initial set up
-   * values here i.e background, stroke, fill etc.
-   */
-  // Background color: blue
+  
+  // Blue Background
   public void setup() {
     background(173, 230, 255);
   }
@@ -35,23 +31,44 @@ public class Sketch extends PApplet {
    */
   public void draw() {
 
-    // Foreground
+    // Grass Foreground
     fill(7, 179, 10);
     rect(0, 350, 400, 60);
     
     fill(61, 2, 2);
     rect(0, 380, 400, 40);
-    
-    
-    
-	  
-	// sample code, delete this stuff
-    stroke(128);
-    line(150, 25, 270, 350);  
 
-    stroke(255);
-    line(50, 125, 70, 50);  
+    // Bird
+    fill(242, 22, 84);
+    ellipse(200, 200, 260, 230);
+
+    fill(173, 122, 245);
+    ellipse(200, 265, 160, 100);
+
+    // Wings
+    fill(92, 0, 222);
+    triangle(320, 190, 320, 240, 385, 190);
+    
+    fill(92, 0, 222);
+    triangle(80, 190, 80, 240, 15, 190);
+
+    // Beak
+    fill(255, 233, 38);
+    triangle(170, 180, 200, 230, 230, 180);
+
+    // Eyes
+    fill(24, 0, 102);
+    ellipse(185, 170, 20, 30);
+
+    fill(24, 0, 102);
+    ellipse(215, 170, 20, 30);
+
+    // Legs
+    fill(15, 0, 0);
+    rect(180, 315, 5, 35);
+
+    fill(15, 0, 0);
+    rect(220, 315, 5, 35);
+
   }
-  
-  // define other methods down here.
 }
