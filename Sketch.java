@@ -1,3 +1,13 @@
+/*
+-------------------------------------------------------------------------
+Processing Task 1 - Calling Functions
+
+Author: Stephanie Tam
+
+Date: 22/02/2022
+-------------------------------------------------------------------------
+*/
+
 import processing.core.PApplet;
 
 public class Sketch extends PApplet {
@@ -15,14 +25,25 @@ public class Sketch extends PApplet {
    * Called once at the beginning of execution.  Add initial set up
    * values here i.e background, stroke, fill etc.
    */
+  // Background color: blue
   public void setup() {
-    background(210, 255, 173);
+    background(173, 230, 255);
   }
 
   /**
    * Called repeatedly, anything drawn to the screen goes here
    */
   public void draw() {
+
+    // Foreground
+    fill(7, 179, 10);
+    rect(0, 350, 400, 60);
+    
+    fill(61, 2, 2);
+    rect(0, 380, 400, 40);
+    
+    
+    
 	  
 	// sample code, delete this stuff
     stroke(128);
